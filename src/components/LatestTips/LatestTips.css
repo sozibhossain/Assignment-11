@@ -1,0 +1,22 @@
+.latest-area{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.latest-tittel{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.latest-fo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+@media only screen and (max-width:688px) {
+    .latest-fo{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    
+}

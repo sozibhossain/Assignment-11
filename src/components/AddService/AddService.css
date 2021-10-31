@@ -1,0 +1,22 @@
+.add-service{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background-color: rgba(169, 204, 44, 0.479);
+}
+.add-service form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-service form input, textarea{
+    width: 40%;
+    margin-bottom: 10px;
+
+}
+.service{
+    background-color: rgba(85, 130, 136, 0.568);
+    text-align: center;
+    padding: 70px;
+    color: #fff;
+}

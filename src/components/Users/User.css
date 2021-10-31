@@ -1,0 +1,14 @@
+.total-user{
+    text-align: center;
+    background-color: burlywood;
+    padding: 20px;
+}
+.user-area{
+    background-color: rgba(210, 105, 30, 0.651);
+    padding: 50px;
+    text-align: center;
+}
+.user-area ul li{
+    
+    padding-bottom: 10px;
+}

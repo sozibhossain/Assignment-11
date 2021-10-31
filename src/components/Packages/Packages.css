@@ -1,0 +1,21 @@
+.packages{
+    padding-top: 100px;
+}
+.packages-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.packages-tittal{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+
+@media only screen and (max-width:688px) {
+    .packages-area{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+    }
+    
+}
